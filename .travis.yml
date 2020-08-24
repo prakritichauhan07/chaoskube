@@ -1,5 +1,7 @@
 dist: trusty
 
+services: docker
+
 os:
 - linux
 arch:
