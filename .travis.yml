@@ -18,6 +18,7 @@ env:
 - GO111MODULE=on
 
 install:
+- service docker start
 - service docker status
 - go get github.com/mfridman/tparse
 - go get github.com/mattn/goveralls
